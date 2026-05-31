@@ -33,6 +33,12 @@ _fini:
 .skip:
     ret
 
+Syscall:
+    xor rax, rax
+    mov r10, rcx
+    syscall
+    ret
+
 CurrentThread:
     mov rax, gs:0
     ret

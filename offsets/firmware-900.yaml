@@ -147,7 +147,7 @@ offsets:
 
   - name: notification_write_from_kernel
     offset: 0x003A1B30
-    type: int
+    type: void*
     category: Util
 
 
