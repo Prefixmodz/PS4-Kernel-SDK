@@ -25,6 +25,7 @@ extern "C"
 	void (*faultin)(struct proc* p);
 	void (*wakeup )(void*);
 	void (*DELAY)(int usec);
+	int (*notification_write_from_kernel)(int api, char* buffer, size_t size, int ioflag);
 
 	/* STD Lib */
 	void* M_TEMP = NULL;
@@ -170,6 +171,7 @@ extern "C"
 		RESOLVE(faultin);
 		RESOLVE(wakeup);
 		RESOLVE(DELAY);
+		RESOLVE(notification_write_from_kernel);
 
 		/* STD Lib */
 		RESOLVE(M_TEMP);
