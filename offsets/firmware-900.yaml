@@ -145,6 +145,11 @@ offsets:
     type: void*
     category: Util
 
+  - name: notification_write_from_kernel
+    offset: 0x003A1B30
+    type: int
+    category: Util
+
 
   # STD Lib
   - name: M_TEMP

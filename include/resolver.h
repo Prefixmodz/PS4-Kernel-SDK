@@ -32,6 +32,7 @@ extern "C" {
 	extern void (*faultin)(struct proc* p);
 	extern void (*wakeup )(void*);
 	extern void (*DELAY)(int usec);
+	extern int (*notification_write_from_kernel)(int api, char* buffer, size_t size, int ioflag);
 
 	/* STD Lib */
 	extern void* M_TEMP;
