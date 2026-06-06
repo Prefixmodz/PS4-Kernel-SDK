@@ -4,7 +4,6 @@
 
 .global _start
 .global _fini
-.global Syscall
 .global CurrentThread
 .global Readmsr
 .global cpu_enable_wp
@@ -32,12 +31,6 @@ _fini:
     call module_fini
 
 .skip:
-    ret
-
-Syscall:
-    xor rax, rax
-    mov r10, rcx
-    syscall
     ret
 
 CurrentThread:

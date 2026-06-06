@@ -7,7 +7,6 @@
 extern "C" {
 #endif
 
-    extern int Syscall(int id, ...);
 	extern thread* CurrentThread();
 	extern uint64_t Readmsr(int Reg);
 	extern void cpu_enable_wp();
