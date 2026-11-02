@@ -447,27 +447,27 @@ offsets:
     category: Sysctl
 
   - name: sysctl_ctx_init
-    offset: 0x003F9E00
+    offset: 0x003FA0B0
     type: void*
     category: Sysctl
 
   - name: sysctl_ctx_free
-    offset: 0x003F9E20
+    offset: 0x003FA0D0
     type: void*
     category: Sysctl
 
   - name: sysctl_add_oid
-    offset: 0x003FA460
+    offset: 0x003FA710
     type: void*
     category: Sysctl
 
   - name: sysctl_handle_int
-    offset: 0x003FA8E0
+    offset: 0x003FAB90
     type: void*
     category: Sysctl
 
   - name: sysctl_handle_string
-    offset: 0x003FAB80
+    offset: 0x003FAE30
     type: void*
     category: Sysctl
 
@@ -648,51 +648,51 @@ offsets:
 
   # Library Replacement
   - name: load_prx
-    offset: 0x0
+    offset: 0x003BA7E0
     type: void*
     category: Library Replacement
 
 
   # TTY Redirector
   - name: cloneuio
-    offset: 0x0
+    offset: 0x0036D6F0
     type: void*
     category: TTY Redirector
 
   - name: console_write
-    offset: 0x0
+    offset: 0x004704F0
     type: void*
     category: TTY Redirector
 
   - name: deci_tty_write
-    offset: 0x0
+    offset: 0x0048D040
     type: void*
     category: TTY Redirector
 
   - name: M_IOV
-    offset: 0x0
+    offset: 0x001A4A280
     type: void*
     category: TTY Redirector
 
   - name: console_cdev
-    offset: 0x0
+    offset: 0x0022D1F30
     type: void*
     category: TTY Redirector
 
   - name: DeciTTYWriteHook
-    offset: 0x0
+    offset: 0x001A7EE28
     type: void*
     category: TTY Redirector
         
 
   # Extended Logging
   - name: CallStackPrintfHook
-    offset: 0x0
+    offset: 0x0016FB1E
     type: void*
     category: Extended Logging
 
   - name: FaultAddressPrintfHook
-    offset: 0x0
+    offset: 0x0016F94C
     type: void*
     category: Extended Logging
 
