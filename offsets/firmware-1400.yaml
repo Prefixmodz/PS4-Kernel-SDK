@@ -66,7 +66,7 @@ offsets:
     category: Util
 
   - name: kmem_alloc
-    offset: 0x0466540
+    offset: 0x00466540
     type: void*
     category: Util
 
@@ -764,22 +764,22 @@ offsets:
     category: Kernel Patches
 
   - name: patch_ptrace1
-    offset: 0x0
+    offset: 0x0003673F5
     type: void*
     category: Kernel Patches
 
   - name: patch_ptrace2
-    offset: 0x0
+    offset: 0x003678E1
     type: void*
     category: Kernel Patches
 
   - name: patch_dynlibPath1
-    offset: 0x0
+    offset: 0x001B878F
     type: void*
     category: Kernel Patches
 
   - name: patch_dynlibPath2
-    offset: 0x0
+    offset: 0x001B879A
     type: void*
     category: Kernel Patches
 
@@ -809,22 +809,22 @@ offsets:
     category: Kernel Patches
 
   - name: patch_mount
-    offset: 0x0
+    offset: 0x001515B7
     type: void*
     category: Kernel Patches
 
   - name: patch_setuid
-    offset: 0x0
+    offset: 0x00391FBF
     type: void*
     category: Kernel Patches
 
   - name: patch_sysmap
-    offset: 0x0
+    offset: 0x001FAADA
     type: void*
     category: Kernel Patches
 
   - name: patch_dynlib_dlsym1
-    offset: 0x0
+    offset: 0x001B7AB8
     type: void*
     category: Kernel Patches
 
