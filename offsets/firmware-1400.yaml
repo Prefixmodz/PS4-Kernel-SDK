@@ -430,12 +430,12 @@ offsets:
 
   # Flash & NVS
   - name: icc_nvs_read
-    offset: 0x0
+    offset: 0x0A5BD0
     type: void*
     category: Flash & NVS
 
   - name: icc_nvs_write
-    offset: 0x0
+    offset: 0x0A5A10
     type: void*
     category: Flash & NVS
 
@@ -799,12 +799,12 @@ offsets:
     category: Kernel Patches
 
   - name: patch_debugSettings1
-    offset: 0x0
+    offset: 0x04E92A8
     type: void*
     category: Kernel Patches
 
   - name: patch_debugSettings2
-    offset: 0x0
+    offset: 0x04F157E
     type: void*
     category: Kernel Patches
 
