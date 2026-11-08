@@ -784,17 +784,17 @@ offsets:
     category: Kernel Patches
 
   - name: patch_disablepfsSig
-    offset: 0x0
+    offset: 0x0069E604
     type: void*
     category: Kernel Patches
 
   - name: patch_debugRif1
-    offset: 0x0
+    offset: 0x064F720
     type: void*
     category: Kernel Patches
 
   - name: patch_debugRif2
-    offset: 0x0
+    offset: 0x064F750
     type: void*
     category: Kernel Patches
 
