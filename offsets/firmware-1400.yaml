@@ -329,7 +329,7 @@ offsets:
 
   # Virtual Memory
   - name: vm_map_lock
-    offset: 0x002F7720
+    offset: 0x002F79D0
     type: void*
     category: Virtual Memory
 
