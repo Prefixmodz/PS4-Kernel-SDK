@@ -61,7 +61,7 @@ PS4 Kernel SDK/
 
 ### Target Platform
 
-- PlayStation 4 console running firmware version 9.00, 12.02, 12.50, 13.00, 13.52, or 14.00
+- PlayStation 4 console running firmware version 9.00, 12.02, 12.50, 13.00, 13.52, 14.00, or 14.02
 - Jailbroken system capable of executing custom payloads
 
 ## Building
@@ -135,6 +135,7 @@ The SDK currently supports automatic symbol resolution for:
 - **13.00** (Build 225997) - `offsets/firmware-1300.yaml`
 - **13.52** (Build 228995) - `offsets/firmware-1352.yaml`
 - **14.00** (Build 229779) - `offsets/firmware-14.00.yaml`
+- **14.02** (Build 230516) - `offsets/firmware-14.02.yaml`
 
 ### Adding New Firmware Versions
 
