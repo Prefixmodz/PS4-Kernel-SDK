@@ -26,37 +26,37 @@ offsets:
     category: Util
 
   - name: copyout
-    offset: 0x002BD950
+    offset: 0x002BDC50
     type: void*
     category: Util
 
   - name: copyin
-    offset: 0x002BDA40
+    offset: 0x002BDD40
     type: void*
     category: Util
 
   - name: copyout_nofault
-    offset: 0x0036D0D0
+    offset: 0x0036D440
     type: void*
     category: Util
 
   - name: copyin_nofault
-    offset: 0x0036D090
+    offset: 0x0036D400
     type: void*
     category: Util
 
   - name: copyinstr
-    offset: 0x002BDEF0
+    offset: 0x002BE1F0
     type: void*
     category: Util
 
   - name: kern_open
-    offset: 0x00343FC0
+    offset: 0x00344330
     type: void*
     category: Util
 
   - name: kern_mkdir
-    offset: 0x00349100
+    offset: 0x00349470
     type: void*
     category: Util
 
@@ -66,47 +66,47 @@ offsets:
     category: Util
 
   - name: kmem_alloc
-    offset: 0x00466540
+    offset: 0x00466920
     type: void*
     category: Util
 
   - name: kmem_free
-    offset: 0x00466710
+    offset: 0x00466AF0
     type: void*
     category: Util
 
   - name: vn_fullpath
-    offset: 0x003096E0
+    offset: 0x00309A50
     type: void*
     category: Util
 
   - name: fuse_loader
-    offset: 0x00495EC0
+    offset: 0x004962A0
     type: void*
     category: Util
 
   - name: DirectMemoryHook
-    offset: 0x002840B0
+    offset: 0x002843B0
     type: void*
     category: Util
 
   - name: devact_onioctl_hook
-    offset: 0x00639480
+    offset: 0x00639900
     type: void*
     category: Util
 
   - name: dipsw_onioctl_hook
-    offset: 0x00656530
+    offset: 0x006569B0
     type: void*
     category: Util
 
   - name: sceKernelCheckDipsw_Hook
-    offset: 0x00655C20
+    offset: 0x006560A0
     type: void*
     category: Util
 
   - name: dmamini_initialize_ioctl
-    offset: 0x005CA210
+    offset: 0x005CA690
     type: void*
     category: Util
 
@@ -116,7 +116,7 @@ offsets:
     category: Util
 
   - name: trap_fatalHook
-    offset: 0x0014AD90
+    offset: 0x0014ADA0
     type: void*
     category: Util
 
@@ -126,7 +126,7 @@ offsets:
     category: Util
 
   - name: getnewvnode
-    offset: 0x0036ECF0
+    offset: 0x0036F060
     type: void*
     category: Util
     
@@ -136,12 +136,12 @@ offsets:
     category: Util
 
   - name: wakeup
-    offset: 0x001405B0
+    offset: 0x001405C0
     type: void*
     category: Util
 
   - name: DELAY
-    offset: 0x0015FE20
+    offset: 0x0015FE30
     type: void*
     category: Util
 
@@ -168,32 +168,32 @@ offsets:
     category: STD Lib
 
   - name: memcpy
-    offset: 0x002BD850
+    offset: 0x002BDB50
     type: void*
     category: STD Lib
 
   - name: memset
-    offset: 0x001FA500
+    offset: 0x001FA900
     type: void*
     category: STD Lib
 
   - name: memcmp
-    offset: 0x00394D80
+    offset: 0x003950F0
     type: void*
     category: STD Lib
 
   - name: strlen
-    offset: 0x0036B5A0
+    offset: 0x0036B910
     type: void*
     category: STD Lib
 
   - name: strcpy
-    offset: 0x004181E0
+    offset: 0x004185C0
     type: void*
     category: STD Lib
 
   - name: strncpy
-    offset: 0x003A8DB0
+    offset: 0x003A9120
     type: void*
     category: STD Lib
 
@@ -203,42 +203,42 @@ offsets:
     category: STD Lib
 
   - name: strncmp
-    offset: 0x003C6E70
+    offset: 0x003C7240
     type: void*
     category: STD Lib
 
   - name: strstr
-    offset: 0x0021D010
+    offset: 0x0021D420
     type: void*
     category: STD Lib
 
   - name: sprintf
-    offset: 0x002E0A00
+    offset: 0x002E0D60
     type: void*
     category: STD Lib
 
   - name: snprintf
-    offset: 0x002E0AC0
+    offset: 0x002E0E20
     type: void*
     category: STD Lib
 
   - name: vsprintf
-    offset: 0x002E0A90
+    offset: 0x002E0DF0
     type: void*
     category: STD Lib
 
   - name: vprintf
-    offset: 0x002E0830
+    offset: 0x002E0B90
     type: void*
     category: STD Lib
 
   - name: sscanf
-    offset: 0x0043EC70
+    offset: 0x0043F050
     type: void*
     category: STD Lib
 
   - name: strdup
-    offset: 0x00408350
+    offset: 0x00408730
     type: void*
     category: STD Lib
 
@@ -248,44 +248,44 @@ offsets:
     category: STD Lib
 
   - name: printf
-    offset: 0x002E07C0
+    offset: 0x002E0B20
     type: void*
     category: STD Lib
 
   - name: hexdump
-    offset: 0x002E20F0
+    offset: 0x002E2450
     type: void*
     category: STD Lib
 
   - name: dynlib_is_host_path
-    offset: 0x001B89F0
+    offset: 0x001B8C10
     type: void*
     category: STD Lib
 
   - name: dynlib_basename
-    offset: 0x001B8A80
+    offset: 0x001B8CA0
     type: void*
     category: STD Lib
 
   - name: dynlib_basename_host
-    offset: 0x001B8A50
+    offset: 0x001B8C70
     type: void*
     category: STD Lib
 
 
   # Event Handling
   - name: eventhandler_register
-    offset: 0x002244C0
+    offset: 0x00224920
     type: void*
     category: Event Handling
 
   - name: eventhandler_deregister
-    offset: 0x00224850
+    offset: 0x00224CB0
     type: void*
     category: Event Handling
 
   - name: eventhandler_find_list
-    offset: 0x00224A40
+    offset: 0x00224EA0
     type: void*
     category: Event Handling
 
@@ -307,7 +307,7 @@ offsets:
     category: Proc
 
   - name: proc_rwmem
-    offset: 0x00366A10
+    offset: 0x00366D80
     type: void*
     category: Proc
 
@@ -317,76 +317,76 @@ offsets:
     category: Proc
 
   - name: do_dlsym
-    offset: 0x003BBA60
+    offset: 0x003BBE30
     type: void*
     category: Proc
 
   - name: find_obj_by_handle
-    offset: 0x003BCBE0
+    offset: 0x003BCFB0
     type: void*
     category: Proc
 
 
   # Virtual Memory
   - name: vm_map_lock
-    offset: 0x002F7720
+    offset: 0x002F7D30
     type: void*
     category: Virtual Memory
 
   - name: vm_map_unlock
-    offset: 0x002F7A40
+    offset: 0x002F7DA0
     type: void*
     category: Virtual Memory
 
   - name: vm_map_findspace
-    offset: 0x002FABE0
+    offset: 0x002FAF40
     type: void*
     category: Virtual Memory
 
   - name: vm_map_delete
-    offset: 0x002FA620
+    offset: 0x002FA980
     type: void*
     category: Virtual Memory
 
   - name: vm_map_insert
-    offset: 0x002F8D20
+    offset: 0x002F9080
     type: void*
     category: Virtual Memory
 
   - name: vm_map_protect
-    offset: 0x002FC980
+    offset: 0x002FCCE0
     type: void*
     category: Virtual Memory
 
   - name: vm_map_find
-    offset: 0x002FAFA0
+    offset: 0x002FB300
     type: void*
     category: Virtual Memory
 
   - name: vm_map_set_name
-    offset: 0x003031D0
+    offset: 0x00303540
     type: void*
     category: Virtual Memory
             
   - name: vm_fault_disable_pagefaults
-    offset: 0x001E67E0
+    offset: 0x001E6BE0
     type: void*
     category: Virtual Memory
 
   - name: vm_fault_enable_pagefaults
-    offset: 0x001E6810
+    offset: 0x001E6C10
     type: void*
     category: Virtual Memory
 
 
   # Mutex Locks
   - name: mtx_lock_flags
-    offset: 0x00378D30
+    offset: 0x003790A0
     type: void*
     category: Mutex Locks
 
   - name: mtx_unlock_flags
-    offset: 0x00378FE0
+    offset: 0x00379350
     type: void*
     category: Mutex Locks
 
@@ -413,17 +413,17 @@ offsets:
 
   # Driver
   - name: make_dev_p
-    offset: 0x0038B3F0
+    offset: 0x0038B760
     type: void*
     category: Driver
 
   - name: destroy_dev
-    offset: 0x0038B910
+    offset: 0x0038BC80
     type: void*
     category: Driver
 
   - name: devfs_rule_applyde_recursive
-    offset: 0x002DEEE0
+    offset: 0x002DF140
     type: void*
     category: Driver
 
@@ -447,27 +447,27 @@ offsets:
     category: Sysctl
 
   - name: sysctl_ctx_init
-    offset: 0x003FA0B0
+    offset: 0x003FA480
     type: void*
     category: Sysctl
 
   - name: sysctl_ctx_free
-    offset: 0x003FA0D0
+    offset: 0x003FA4A0
     type: void*
     category: Sysctl
 
   - name: sysctl_add_oid
-    offset: 0x003FA710
+    offset: 0x003FAAE0
     type: void*
     category: Sysctl
 
   - name: sysctl_handle_int
-    offset: 0x003FAB90
+    offset: 0x003FAF60
     type: void*
     category: Sysctl
 
   - name: sysctl_handle_string
-    offset: 0x003FAE30
+    offset: 0x003FB200
     type: void*
     category: Sysctl
 
@@ -648,24 +648,24 @@ offsets:
 
   # Library Replacement
   - name: load_prx
-    offset: 0x003BA7E0
+    offset: 0x003BAB80
     type: void*
     category: Library Replacement
 
 
   # TTY Redirector
   - name: cloneuio
-    offset: 0x0036D6F0
+    offset: 0x0036DA60
     type: void*
     category: TTY Redirector
 
   - name: console_write
-    offset: 0x004704F0
+    offset: 0x004708D0
     type: void*
     category: TTY Redirector
 
   - name: deci_tty_write
-    offset: 0x0048D040
+    offset: 0x0048D420
     type: void*
     category: TTY Redirector
 
@@ -687,12 +687,12 @@ offsets:
 
   # Extended Logging
   - name: CallStackPrintfHook
-    offset: 0x0016FB1E
+    offset: 0x0016FABE
     type: void*
     category: Extended Logging
 
   - name: FaultAddressPrintfHook
-    offset: 0x0016F94C
+    offset: 0x0016F8EC
     type: void*
     category: Extended Logging
 
@@ -704,212 +704,212 @@ offsets:
     category: Kernel Patches
 
   - name: patch_kmem_alloc1
-    offset: 0x0046660C
+    offset: 0x004669EC
     type: void*
     category: Kernel Patches
 
   - name: patch_kmem_alloc2
-    offset: 0x00466614
+    offset: 0x004669F4
     type: void*
     category: Kernel Patches
 
   - name: patch_ASLR
-    offset: 0x004787B4
+    offset: 0x00478B94
     type: void*
     category: Kernel Patches
 
   - name: patch_copyin1
-    offset: 0x002BDA97
+    offset: 0x002BDD97
     type: void*
     category: Kernel Patches
 
   - name: patch_copyin2
-    offset: 0x002BDAA3
+    offset: 0x002BDDA3
     type: void*
     category: Kernel Patches
 
   - name: patch_copyout1
-    offset: 0x002BD9A2
+    offset: 0x002BDCA2
     type: void*
     category: Kernel Patches
 
   - name: patch_copyout2
-    offset: 0x002BD9AE
+    offset: 0x002BDCAE
     type: void*
     category: Kernel Patches
 
   - name: patch_copyinstr1
-    offset: 0x002BDF43
+    offset: 0x002BE243
     type: void*
     category: Kernel Patches
 
   - name: patch_copyinstr2
-    offset: 0x002BDF4F
+    offset: 0x002BE24F
     type: void*
     category: Kernel Patches
 
   - name: patch_copyinstr3
-    offset: 0x002BDF80
+    offset: 0x002BE280
     type: void*
     category: Kernel Patches
 
   - name: patch_swword_lwpid1
-    offset: 0x002BDD62
+    offset: 0x002BE062
     type: void*
     category: Kernel Patches
 
   - name: patch_swword_lwpid2
-    offset: 0x002BDD71
+    offset: 0x002BE071
     type: void*
     category: Kernel Patches
 
   - name: patch_ptrace1
-    offset: 0x0003673F5
+    offset: 0x000367765
     type: void*
     category: Kernel Patches
 
   - name: patch_ptrace2
-    offset: 0x003678E1
+    offset: 0x00367C51
     type: void*
     category: Kernel Patches
 
   - name: patch_dynlibPath1
-    offset: 0x001B878F
+    offset: 0x001B89AF
     type: void*
     category: Kernel Patches
 
   - name: patch_dynlibPath2
-    offset: 0x001B879A
+    offset: 0x001B89BA
     type: void*
     category: Kernel Patches
 
   - name: patch_disablepfsSig
-    offset: 0x0069E604
+    offset: 0x0069EA80
     type: void*
     category: Kernel Patches
 
   - name: patch_debugRif1
-    offset: 0x064F720
+    offset: 0x0064FBA0
     type: void*
     category: Kernel Patches
 
   - name: patch_debugRif2
-    offset: 0x064F750
+    offset: 0x0064FBD0
     type: void*
     category: Kernel Patches
 
   - name: patch_debugSettings1
-    offset: 0x0
+    offset: 0x004E9698
     type: void*
     category: Kernel Patches
 
   - name: patch_debugSettings2
-    offset: 0x0
+    offset: 0x004F196E
     type: void*
     category: Kernel Patches
 
   - name: patch_mount
-    offset: 0x001515B7
+    offset: 0x001515C7
     type: void*
     category: Kernel Patches
 
   - name: patch_setuid
-    offset: 0x00391FBF
+    offset: 0x0039232F
     type: void*
     category: Kernel Patches
 
   - name: patch_sysmap
-    offset: 0x001FAADA
+    offset: 0x001FAEDA
     type: void*
     category: Kernel Patches
 
   - name: patch_dynlib_dlsym1
-    offset: 0x001B7AB8
+    offset: 0x001B7CD8
     type: void*
     category: Kernel Patches
 
   - name: patch_dynlib_dlsym2
-    offset: 0x003BE3C0
+    offset: 0x003BE790
     type: void*
     category: Kernel Patches
 
   - name: patch_display_dump
-    offset: 0x001BF565
+    offset: 0x001BF7E5
     type: void*
     category: Kernel Patches
 
   - name: patch_debuglogs
-    offset: 0x002E08A7
+    offset: 0x002E0C07
     type: void*
     category: Kernel Patches
 
   - name: patch_fuseLoader
-    offset: 0x00495EEE
+    offset: 0x004962CE
     type: void*
     category: Kernel Patches
 
   - name: patch_fuseroot1
-    offset: 0x0010D106
+    offset: 0x0010D0D6
     type: void*
     category: Kernel Patches
 
   - name: patch_fuseroot2
-    offset: 0x0010D11E
+    offset: 0x0010D0EE
     type: void*
     category: Kernel Patches
 
   - name: patch_mprotect
-    offset: 0x002FCB5C
+    offset: 0x002FCEBC
     type: void*
     category: Kernel Patches
 
   - name: patch_dmamini0
-    offset: 0x005CA22B
+    offset: 0x005CA6AB
     type: void*
     category: Kernel Patches
 
   - name: patch_dmamini1
-    offset: 0x005CA22F
+    offset: 0x005CA6AF
     type: void*
     category: Kernel Patches
 
   - name: patch_mdbg_basic
-    offset: 0x0075D890
+    offset: 0x0075DD10
     type: uint64_t
     category: Kernel Patches
 
   - name: patch_mpage_panic
-    offset: 0x0003045BE
+    offset: 0x0030492E
     type: void*
     category: Kernel Patches
 
   - name: patch_vputx_panic
-    offset: 0x003711E2
+    offset: 0x00371552
     type: void*
     category: Kernel Patches
 
   - name: patch_vm_fault_panic
-    offset: 0x0001E2466
+    offset: 0x001E2866
     type: void*
     category: Kernel Patches
 
   - name: patch_PrxPathCheck1
-    offset: 0x00475715
+    offset: 0x00475AF5
     type: void*
     category: Kernel Patches
     
   - name: patch_PrxPathCheck2
-    offset: 0x0047571E
+    offset: 0x00475AFE
     type: void*
     category: Kernel Patches
 
   - name: patch_PrxPathCheck3
-    offset: 0x00475727
+    offset: 0x00475B07
     type: void*
     category: Kernel Patches
     
   - name: patch_printf_regmgr_call
-    offset: 0x004F5E07
+    offset: 0x004F61F7
     type: void*
     category: Kernel Patches
 
